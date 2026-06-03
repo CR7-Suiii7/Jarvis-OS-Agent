@@ -1,0 +1,31 @@
+# Core Orchestration and Config
+google-genai>=0.1.1
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+python-dotenv>=1.0.0
+
+# Integration: Google APIs (Gmail, Calendar)
+google-auth-oauthlib>=1.0.0
+google-auth-httplib2>=0.1.0
+google-api-python-client>=2.80.0
+
+# Integration: GitHub API
+PyGithub>=1.58.0
+GitPython>=3.1.30
+
+# System and Shell Utilities
+psutil>=5.9.0
+
+# Local Audio & Speech Processing
+SpeechRecognition>=3.10.0
+sounddevice>=0.4.6
+numpy>=1.20.0
+pyttsx3>=2.90
+faster-whisper>=0.7.0
+
+
+# Testing and Quality Assurance
+pytest>=7.0.0
+pytest-mock>=3.10.0
+black>=23.0.0
+mypy>=1.0.0
